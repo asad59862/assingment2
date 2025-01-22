@@ -1,0 +1,158 @@
+
+/* nav style  */
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 140px;
+    height: 100px;
+    max-width: 1440px;
+}
+/* school */
+.school{
+    display: flex;
+}
+.school img{
+    height:62px ;
+}
+.nav{
+    display: flex;
+    height: 62px;
+    
+}
+.nav ul a{
+    text-decoration: none;
+}
+/* nav item color */
+#navitem1{
+    color:orange ;
+}
+#navitem2{
+    color:skyblue;
+}
+#navitem3{
+    color:#05D4DF;
+}
+#navitem4{
+    color:#5D58EF ;
+}
+/* nav button style */
+.contuct{
+    background-color: orange;
+    border-radius: 12px;
+    color:#FFFFFF ;
+    width: 200px;
+    height: 50px;
+    padding: 5 60px;
+    border: none;
+}
+/* style for hero section  */
+.hero{
+    display: flex;
+    margin: 0 140px;
+    justify-content: space-between;
+    align-items: center;
+    height: 575px;
+    
+
+
+}
+.hero-content{
+ width: 600px; 
+ padding-right: 100px;  
+}
+.Empowering{
+    color: orange;
+}
+.towards{
+    color: skyblue;
+}
+.enrol{
+    background-color: black;
+    color: #FFFFFF;
+    height: 50px;
+    width: 200px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+/* main section desine */
+.main{
+    margin: 0 140px;
+}
+.standard>h2{
+    text-align: center;
+
+}
+.standard{
+    padding: 60 0px;
+    
+}
+.cardsetion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card{
+   text-align: center;
+   width: 370px;
+   height: 480px;
+   padding: 15px;
+   border-radius: 18px;
+ 
+   
+
+}
+#card1{
+    background-image: linear-gradient(#d6e7f1fa, white);
+}
+#card2{
+    background-image: linear-gradient(#FFEEC8, white);   
+}
+#card3{
+    
+    background-image: linear-gradient(#F2E8FF, white);
+}
+
+/* nav for mobile */
+
+
+
+
+@media screen and (max-width: 576px) {
+    /* nav responsive for  mobile divice */
+    .navbar{
+        /* border:0.5px solid orange; */
+       visibility: hidden;
+        
+    }
+ /* responsive for hero section  */
+ .hero{
+    height: 730px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+
+
+ }
+ .hero-content{
+   text-align: center;
+   width: 335px;
+  
+  
+
+   
+ }
+ .hero-content >h1{
+    text-align: center;
+ }
+ .hero-paragraph{
+    text-align: center;
+ }
+
+}
+    
