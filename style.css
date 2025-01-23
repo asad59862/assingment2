@@ -1,7 +1,13 @@
 .mobile-responsive-nav{
 display: none;
 }
+/* marquee */
+.marquee{
+    height: 20px;
+    color: #5D58EF;
+    
 
+}
 /* nav style  */
 .navbar{
     display: flex;
