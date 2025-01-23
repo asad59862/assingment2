@@ -390,7 +390,10 @@ display: none;
 height: 580px;
 width: 400px;
 }
-
+.footer{
+    margin-left: 50px;
+    margin-right: 10px;
+}
 .footer-child{
   flex-direction: column;
   
