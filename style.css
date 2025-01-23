@@ -1,6 +1,7 @@
 .mobile-responsive-nav{
 display: none;
 }
+
 /* nav style  */
 .navbar{
     display: flex;
@@ -291,9 +292,11 @@ display: none;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 50px;
-        border: 1px solid orange;
         padding: 10px;
+        border-bottom: 0.4px solid orange;
+        
         }
+
         .menue{
             font-size: 30px;
         }
